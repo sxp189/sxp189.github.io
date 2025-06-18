@@ -1,4 +1,7 @@
-# How I Built a Retro Game Using Amazon Q CLI
+---
+title: "How I Built a Retro Game Using Amazon Q CLI"
+date: 2025-06-18
+---
 
 Reading children's books with my son about building simple games in JavaScript has been a fun experience, but I've never actually created a game myself. So when an email from AWS landed in my inbox announcing the 'Build Games Challenge,' I saw it as the perfect opportunity to step outside my comfort zone and try something new.
 
