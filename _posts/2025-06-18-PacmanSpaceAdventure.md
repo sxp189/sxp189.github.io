@@ -1,5 +1,5 @@
 ---
-title: "How I Built a Retro Game Using Amazon Q CLI"
+title: "How-I-Built-a-Retro-Game-Using-Amazon-Q-CLI"
 date: 2025-06-18
 ---
 
