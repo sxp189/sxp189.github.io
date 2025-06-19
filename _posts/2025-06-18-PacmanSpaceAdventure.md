@@ -15,12 +15,12 @@ I've never used Amazon Q CLI before, so I followed the steps in [Ricardo Sueiras
 Once that was done, I explored the AWS Community forum, looking for some quick start videos. I came across another blog on [Getting started with Amazon Q Developer in Visual Studio Code](https://community.aws/content/2fVw1hN4VeTF3qtVSZHfQiQUS16/getting-started-with-amazon-q-developer-in-visual-studio-code) that showed me how to add the Amazon Q CLI extension in VS Code, so I gave this a try. The instructions were easy to follow, and I was ready to go in less than 1 minute.
 
 ### Chatting with Amazon Q ###
-Without having any folders open in VS Code, I opened a new chat and entered the following prompt and pressed enter on the keyboard:
+Without having any folders open in VS Code, I opened a new chat and entered the following prompt and pressed enter on the keyboard:  
 ``Create a game that features Pacman flying a spaceship. Include multiplication problems that the player must solve to earn bonus points.``
 
 As Amazon Q worked through this task, it required me to make approval decisions for situations like: allowing read-only tools outide the current workspace, creating a directory, etc. Amazon Q began by creating the main HTML for the game, followed by CSS before moving on to the JavaScript file. This helped me save time on figuring what programming language to use and what files I needed to get started with developing the Pacman Space Adventure game, which was the title that Amazon Q assigned upon completing the script development. Upon encountering errors (classic programming challenges), Amazon Q undid changes and broke down the JavaScript file creation into smaller parts. 
 
-Within just minutes, the game was created and ready to play. The only problem was that I could not locate the directory containing the game files. So, I asked Amazon Q the following question:
+Within just minutes, the game was created and ready to play. The only problem was that I could not locate the directory containing the game files. So, I asked Amazon Q the following question:  
 ``In the “mkdir -p pacman_space_game” step, where did you create the directory?``
 
 After locating and showing me the directory under which the game files were created, Amazon Q looked for a better location and created a new directory under my home directory. I had thought that Amazon Q would have moved the game files under my home directory. Instead, it seemed to have restarted the entire game development process. Even though it restarted the game development process, there were fewer errors, and the process went quicker.
@@ -30,8 +30,8 @@ Upon finishing the game development files a second time, Amazon Q informed me wh
 ![pacman_space_game](https://github.com/user-attachments/assets/32d81f50-e3fe-4aa3-b336-4fd2db52b790)
 
 ### Example of Amazon Q Generated Code ###
-Overall, the code was well organized and easy to read, with comments added to every function. Below is an example of creating a function to check for collisions between fired bullets and the enemies.
-``
+Overall, the code was well organized and easy to read, with comments added to every function. Below is an example of creating a function to check for collisions between fired bullets and the enemies.  
+````
 // Check for collisions between game objects
 function checkCollisions() {
     // Check bullet-enemy collisions
@@ -53,7 +53,7 @@ function checkCollisions() {
             }
         });
     });
-``
+````
 
 ### Generating Documentation ###
 Using the /doc command, I asked Amazon Q to generate documentation for the Pacman Space Adventure game that was just built. This resulted in an error because I didn't have my directory open in VS Code. After opening the directory containing the game files, I was able to use the /doc command to generate a ReadMe file.
