@@ -1,5 +1,5 @@
 ---
-title: How-I-Built-a-Retro-Game-Using-Amazon-Q-CLI
+title: "How I Built a Retro Game Using Amazon Q CLI"
 date: 2025-06-18
 ---
 Reading children's books with my son about building simple games in JavaScript has been a fun experience, but I've never actually created a game myself. So when an email from AWS landed in my inbox announcing the 'Build Games Challenge,' I saw it as the perfect opportunity to step outside my comfort zone and try something new.
@@ -22,7 +22,7 @@ After locating and showing me the directory under which the game files were crea
 
 Upon finishing the game development files a second time, Amazon Q informed me where the game files were located. I was able to locate it easily and test the game in my web browser.
 
-![Screenshot of player having 1 life left in the Pacman Space Adventure Game with a multiplication problem to solve.](https://github.com/sxp189/pacman_space_game/blob/main/pacman_space_game.png)
+![pacman_space_game](https://github.com/user-attachments/assets/32d81f50-e3fe-4aa3-b336-4fd2db52b790)
 
 ### Generating Documentation ###
 Using the /doc command, I asked Amazon Q to generate documentation for the Pacman Space Adventure game that was just built. This resulted in an error because I didn't have my directory open in VS Code. After opening the directory containing the game files, I was able to use the /doc command to generate a ReadMe file.
