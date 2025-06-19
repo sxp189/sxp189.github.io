@@ -60,3 +60,6 @@ Using the /doc command, I asked Amazon Q to generate documentation for the Pacma
 
 ### Effective Prompting Techniques ###
 I found that succinct writing and use of widely recognized terminology yields the best results, helping you get to your final desired product much quicker. For slightly longer prompts, composing a solid paragraph structure (e.g. topic sentence followed by supporting sentences) can be helpful in prompting the Large Language Model (LLM) to generate your desired result.
+
+### Github Repo for Pacman Space Adventure ###
+Visit my github to view the repository: https://github.com/sxp189/pacman_space_game
