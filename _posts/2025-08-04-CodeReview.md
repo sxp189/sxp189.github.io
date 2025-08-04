@@ -4,6 +4,16 @@ date: 2025-08-04
 ---
 Five days ago, I started this blog to document my thought process in reviewing my 328 lines of code for the [Pacman Space Adventure](https://github.com/sxp189/pacman_space_game/blob/main/game.js) game to see if there are any improvements I’d like to make.
 
+Overall, I’m considering making the following changes:
+- Increase number of lives from 3 to 5
+- Decrease enemy spawn rate by ten fold
+- Increase power-up spawn rate by ten fold
+- Increase bullet speed to 10
+- Include multiplication problems up to 12s and establish a constant for bonus points (lines 61 through 77)
+- Let the math problems generate 30% of the time (line 205) to give the player more opportunities to score bonus points
+- Add 2 eyeballs to each enemy (lines 282 - 295).
+- Change the shape of the power-ups from a circle to another shape such as hexagon or octagon (lines 296 - 309).
+
 ### [Lines 1 through 9](https://github.com/sxp189/pacman_space_game/blob/60e075792ababd0742e6019c20453e6551191d39/game.js#L1-L9) | Game Setup and Variables ###
 ````
 // Game canvas setup
